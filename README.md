@@ -38,7 +38,7 @@ You can view the live version of the CV [here](https://www.ajoydas.com/cv).
 ---
 ##Project URL
 ```base
-[https://roadmap.sh/projects/single-page-cv](https://roadmap.sh/projects/single-page-cv/solutions?u=65dcb377aec67f2e2aa03b99)
+[https://roadmap.sh/projects/single-page-cv(https://roadmap.sh/projects/single-page-cv/solutions?u=65dcb377aec67f2e2aa03b99)](https://roadmap.sh/projects/single-page-cv(https://roadmap.sh/projects/single-page-cv/solutions?u=65dcb377aec67f2e2aa03b99)
 
 ## Setup
 
