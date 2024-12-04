@@ -36,7 +36,7 @@ You can view the live version of the CV [here](https://www.ajoydas.com/cv).
 - **JavaScript** (optional): For any future dynamic features.
 
 ---
-##Project URL
+## Project URL
 
 - [Open on Browser](https://codewithajoydas.github.io/ajoy_das_CV_1.0/)
 - [Like My project on roadmap.sh](https://roadmap.sh/projects/single-page-cv/solutions?u=65dcb377aec67f2e2aa03b99)
