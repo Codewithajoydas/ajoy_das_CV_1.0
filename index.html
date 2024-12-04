@@ -4,23 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajoy Das - Web Developer | Single Page CV</title>
+    <title>Ajoy Das - Web Developer | Professional CV</title>
     <meta name="description"
-        content="Ajoy Das's professional single-page CV showcasing skills, experience, and achievements in web development.">
-    <meta name="keywords" content="Ajoy Das, web developer, CV, resume, HTML, CSS, JavaScript, front-end, back-end">
+        content="Ajoy Das's professional single-page CV showcasing skills, experience, projects, testimonials, and achievements in web development.">
+    <meta name="keywords" content="Ajoy Das, web developer, CV, resume, HTML, CSS, JavaScript, projects, testimonials">
 
     <!-- Open Graph meta tags -->
-    <meta property="og:title" content="Ajoy Das - Web Developer | Single Page CV">
+    <meta property="og:title" content="Ajoy Das - Web Developer | Professional CV">
     <meta property="og:description"
-        content="Explore Ajoy Das's CV, featuring his web development skills, experience, and achievements.">
+        content="Discover Ajoy Das's skills, experience, projects, and client testimonials.">
     <meta property="og:image" content="image.png">
     <meta property="og:url" content="https://www.ajoydas.com/cv">
     <meta property="og:type" content="website">
 
     <!-- Twitter Card meta tags -->
-    <meta name="twitter:title" content="Ajoy Das - Web Developer | Single Page CV">
+    <meta name="twitter:title" content="Ajoy Das - Web Developer | Professional CV">
     <meta name="twitter:description"
-        content="Explore Ajoy Das's CV, featuring his web development skills, experience, and achievements.">
+        content="Discover Ajoy Das's skills, experience, projects, and client testimonials.">
     <meta name="twitter:image" content="image.png">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -29,29 +29,35 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
+            line-height: 1.8;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f9;
+            background-color: #f9f9f9;
+            color: #333;
         }
 
-        .main {
-            max-width: 800px;
+        .container {
+            max-width: 900px;
             margin: 30px auto;
             padding: 20px;
             background: #fff;
             border-radius: 10px;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            position: relative;
         }
 
         h1,
         h2 {
-            color: #333;
+            text-align: center;
+            color: #2c3e50;
         }
 
         h1 {
-            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .section {
+            margin: 20px 0;
         }
 
         ul {
@@ -68,129 +74,129 @@
             text-decoration: underline;
         }
 
-        .img {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            width: 160px;
-            height: 160px;
-            background-size: cover;
-            background-position: center;
-            overflow: hidden;
-            border-radius: 50%;
-            border: 2px solid #ddd;
-        }
-
-        .bottom-label {
-            position: absolute;
-            bottom: 10px;
-            right: 20px;
-            font-size: 12px;
-            background-color: #f8f9fa;
-            padding: 5px;
-            border-radius: 5px;
-            color: #ff0000;
-        }
-
-        .download-btn {
-            display: block;
+        .btn {
+            display: inline-block;
             margin: 20px auto;
-            text-align: center;
             background: #007BFF;
             color: #fff;
             padding: 10px 20px;
-            border: none;
+            text-align: center;
             border-radius: 5px;
-            text-transform: uppercase;
             font-weight: bold;
-            cursor: pointer;
-            transition: background 0.3s ease;
             text-decoration: none;
+            transition: background 0.3s ease;
         }
 
-        .download-btn:hover {
+        .btn:hover {
             background: #0056b3;
+        }
+
+        .projects,
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 15px;
+        }
+
+        .card {
+            flex: 1 1 calc(48% - 10px);
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        .card h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #333;
+        }
+
+        .testimonials .card {
+            text-align: center;
+        }
+
+        .testimonials .card blockquote {
+            font-style: italic;
+            color: #666;
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            color: #666;
         }
     </style>
 </head>
 
 <body>
-    <div class="main">
-        <img src="image.png" alt="Ajoy Das Image" class="img">
-        <h1>Ajoy Das - Web Developer</h1>
-        <h2>Contact Information</h2>
-        <p>Email: <a href="mailto:codewithajoydas@gmail.com">codewithajoydas@gmail.com</a></p>
-        <p>Phone: +91 6900611920</p>
-        <p>Address: Morikolong, Nagaon, Assam, 782001 (India)</p>
+    <div class="container">
+        <h1>Ajoy Das</h1>
+        <p style="text-align:center; font-size: 1.2em;">Experienced Web Developer specializing in creating modern, user-friendly websites and applications.</p>
 
-        <h2>Skills</h2>
-        <p><strong>Front-End Development:</strong></p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Vue.js</li>
-            <li>Responsive Design</li>
-            <li>Bootstrap</li>
-            <li>Tailwind CSS</li>
-        </ul>
+        <div class="section">
+            <h2>Contact Information</h2>
+            <p>Email: <a href="mailto:codewithajoydas@gmail.com">codewithajoydas@gmail.com</a></p>
+            <p>Phone: +91 6900611920</p>
+            <p>Address: Morikolong, Nagaon, Assam, 782001 (India)</p>
+        </div>
 
-        <p><strong>Back-End Development:</strong></p>
-        <ul>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>PHP</li>
-            <li>MongoDB</li>
-            <li>MySQL</li>
-            <li>RESTful APIs</li>
-        </ul>
+        <div class="section">
+            <h2>Skills</h2>
+            <p><strong>Front-End Development:</strong> HTML, CSS, JavaScript, React, Vue.js, Responsive Design, Bootstrap, Tailwind CSS</p>
+            <p><strong>Back-End Development:</strong> Node.js, Express.js, PHP, MongoDB, MySQL, RESTful APIs</p>
+            <p><strong>Tools:</strong> Git, Docker, Firebase, Figma, Photoshop</p>
+        </div>
 
-        <p><strong>Version Control:</strong></p>
-        <ul>
-            <li>Git</li>
-            <li>GitHub</li>
-            <li>GitLab</li>
-        </ul>
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="card">
+                    <h3>Project 1: Portfolio Website</h3>
+                    <p>Developed a responsive personal portfolio website using HTML, CSS, and JavaScript. Showcases work and skills.</p>
+                </div>
+                <div class="card">
+                    <h3>Project 2: E-Commerce App</h3>
+                    <p>Built a full-stack e-commerce application with React and Node.js, featuring user authentication and payment integration.</p>
+                </div>
+            </div>
+        </div>
 
-        <p><strong>Tools & Technologies:</strong></p>
-        <ul>
-            <li>Webpack</li>
-            <li>Docker</li>
-            <li>Heroku</li>
-            <li>Firebase</li>
-            <li>Figma</li>
-            <li>Photoshop</li>
-        </ul>
+        <div class="section">
+            <h2>Testimonials</h2>
+            <div class="testimonials">
+                <div class="card">
+                    <blockquote>"Ajoy delivered an excellent product on time. Highly recommend!"</blockquote>
+                    <p>- Client A</p>
+                </div>
+                <div class="card">
+                    <blockquote>"Amazing developer! Understood the project requirements and exceeded expectations."</blockquote>
+                    <p>- Client B</p>
+                </div>
+            </div>
+        </div>
 
-        <h2>Experience</h2>
-        <p><strong>Web Developer at XYZ Company</strong> - January 2021 - Present</p>
-        <ul>
-            <li>Developed responsive websites using HTML, CSS, JavaScript, and React.</li>
-            <li>Collaborated with cross-functional teams to build dynamic and user-friendly web applications.</li>
-            <li>Implemented RESTful APIs using Node.js and Express.js.</li>
-            <li>Improved web application performance and optimized load times.</li>
-        </ul>
+        <div class="section">
+            <h2>Hobbies</h2>
+            <p>When not coding, I enjoy hiking, playing chess, and exploring the latest tech trends.</p>
+        </div>
 
-        <p><strong>Junior Web Developer at ABC Company</strong> - June 2019 - December 2020</p>
-        <ul>
-            <li>Assisted in the development of front-end features using HTML, CSS, and JavaScript.</li>
-            <li>Worked with a team to enhance website functionality and user experience.</li>
-            <li>Contributed to the maintenance of website content and features.</li>
-        </ul>
-
-        <h2>Education</h2>
-        <p><strong>Bachelor of Computer Applications (BCA)</strong> - University Name, Year of Graduation: 2023</p>
-
-        <h2>Certifications</h2>
-        <ul>
-            <li>Certified Web Developer - ABC Institute</li>
-            <li>JavaScript Developer - XYZ Academy</li>
-            <li>React Developer Certification - Online Course</li>
-        </ul>
-<a href="Ajoy_Das_CV.pdf" class="download-btn" download>Download CV</a>
-<div class="bottom-label">*This is a Demo Project</div>
+        <div class="section">
+            <h2>Download CV</h2>
+            <a href="Ajoy_Das_CV.pdf" class="btn" download>Download My CV</a>
+        </div>
     </div>
+
+    <footer>
+        <p>© 2024 Ajoy Das. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
