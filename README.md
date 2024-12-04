@@ -43,4 +43,4 @@ To use this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/Codewithajoydas/ajoy_das_CV_1.0.git]
+   git clone https://github.com/Codewithajoydas/ajoy_das_CV_1.0.git
