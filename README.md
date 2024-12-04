@@ -36,6 +36,9 @@ You can view the live version of the CV [here](https://www.ajoydas.com/cv).
 - **JavaScript** (optional): For any future dynamic features.
 
 ---
+##Project URL
+```base
+https://roadmap.sh/projects/single-page-cv
 
 ## Setup
 
